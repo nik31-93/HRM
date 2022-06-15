@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangrHRM]">
+  <test name="AddAndDeleteEmp(failed)">
+    <classes>
+      <class name="com.TestLayer.LoginHrm">
+        <methods>
+          <include name="start"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.TestLayer.LoginHrm -->
+      <class name="com.TestLayer.PersonalDetails">
+        <methods>
+          <include name="PIMPersonalinfo"/>
+        </methods>
+      </class> <!-- com.TestLayer.PersonalDetails -->
+      <class name="com.TestLayer.DeleteEmp">
+        <methods>
+          <include name="Delete"/>
+        </methods>
+      </class> <!-- com.TestLayer.DeleteEmp -->
+    </classes>
+  </test> <!-- AddAndDeleteEmp(failed) -->
+</suite> <!-- Failed suite [OrangrHRM] -->
