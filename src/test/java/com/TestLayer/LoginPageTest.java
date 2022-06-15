@@ -14,12 +14,15 @@ public class LoginPageTest extends BaseClass {
 		BaseClass.inilitization();
 	}
 
+	
 	@Test
 	public void validateLoginFunctionality() {
 		LoginPage loginpage = new LoginPage();
 		loginpage.loginFunctionality("Admin","admin123");
+		System.out.println("Test case pass");
 	}
 
+	
 	@AfterClass
 	public void tearDown() {
 		driver.quit();
