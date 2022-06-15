@@ -27,10 +27,7 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	// Associated methods for OR.
-
 	public void loginFunctionality(String uname, String pass) {
-
 		username.sendKeys(uname);
 		password.sendKeys(pass);
 
@@ -43,7 +40,6 @@ public class LoginPage extends BaseClass {
 			String a = errorMessage.getText();
 			System.out.println(a);
 		}
-
 	}
 
 	public void resetPassword() {
