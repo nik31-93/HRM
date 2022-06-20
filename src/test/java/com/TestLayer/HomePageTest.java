@@ -5,15 +5,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 import com.PageLayer.HomePage;
 
-public class HomePageTest extends BaseClass {
+public class HomePageTest extends Baseclass {
 	private HomePage homepage;
 
 	@BeforeClass
 	public void setUp() {
-		BaseClass.inilitization();
+		Baseclass.inilitization();
 	}
 
 	@Test(priority = 1)

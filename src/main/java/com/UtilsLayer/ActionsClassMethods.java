@@ -4,9 +4,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class ActionsClassMethods extends BaseClass {
+public class ActionsClassMethods extends Baseclass {
 	// click, double click, right click, dragAndDrog,
 	// moveToElement,clickAndHold,
 	// KeyDown, KeyUP,

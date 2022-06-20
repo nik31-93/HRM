@@ -3,9 +3,9 @@ package com.UtilsLayer;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class FrameMethods extends BaseClass {
+public class FrameMethods extends Baseclass {
 
 	// switch to child frame by using frame nameorid
 	public static WebDriver switchToChildFrameUsingName(String nameid) {

@@ -5,9 +5,9 @@ import java.io.FileInputStream;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class ExcelReader extends BaseClass {
+public class ExcelReader extends Baseclass {
 	public static XSSFWorkbook workbook;
 
 	public ExcelReader(String path) {

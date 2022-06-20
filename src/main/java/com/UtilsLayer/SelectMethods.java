@@ -5,9 +5,9 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class SelectMethods extends BaseClass {
+public class SelectMethods extends Baseclass {
 
 	public static void selectValueByVisibleText(WebElement wb, String value) {
 		new Select(wb).selectByVisibleText(value);

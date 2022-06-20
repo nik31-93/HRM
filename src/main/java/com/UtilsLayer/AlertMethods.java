@@ -1,8 +1,8 @@
 package com.UtilsLayer;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class AlertMethods extends BaseClass {
+public class AlertMethods extends Baseclass {
 	
 	// it will click on Ok Button
 	public static void clickOnOkButton() {

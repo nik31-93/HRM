@@ -12,9 +12,9 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class UtilsClass extends BaseClass {
+public class UtilsClass extends Baseclass {
 
 	public static void explicitWait(int Wait, By by) {
 		WebDriverWait wait = new WebDriverWait(driver, (Wait));

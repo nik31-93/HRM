@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class LoginPage extends BaseClass {
+public class LoginPage extends Baseclass {
 	// Object Repositories with the help of page Factory
 	@FindBy(id = "txtUsername")
 	WebElement username;

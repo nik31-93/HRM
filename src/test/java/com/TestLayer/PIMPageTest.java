@@ -5,11 +5,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 import com.PageLayer.PIMPage;
 
 
-public class PIMPageTest extends BaseClass {
+public class PIMPageTest extends Baseclass {
 
 	private LoginPageTest loginpageTest;
 	private HomePageTest homepagetest;
@@ -17,7 +17,7 @@ public class PIMPageTest extends BaseClass {
 
 	@BeforeClass
 	public void setUp() {
-		BaseClass.inilitization();
+		Baseclass.inilitization();
 		loginpageTest = new LoginPageTest();
 		homepagetest = new HomePageTest();
 		pimpage = new PIMPage();

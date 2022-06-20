@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 import com.UtilsLayer.JsMethods;
 import com.UtilsLayer.SelectMethods;
 
-public class PIMPage extends BaseClass {
+public class PIMPage extends Baseclass {
 
 	String employeeid;
 	String date = "10";

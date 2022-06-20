@@ -4,14 +4,14 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 import com.PageLayer.LoginPage;
 
-public class LoginPageTest extends BaseClass {
+public class LoginPageTest extends Baseclass {
 
 	@BeforeClass
 	public void setUp() {
-		BaseClass.inilitization();
+		Baseclass.inilitization();
 	}
 
 	

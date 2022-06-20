@@ -3,9 +3,9 @@ package com.UtilsLayer;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class JsMethods extends BaseClass {
+public class JsMethods extends Baseclass {
 
 	// open a browser,click, sendKeys,title, url , scroll down up to element,
 	// alert , border , change bg color
